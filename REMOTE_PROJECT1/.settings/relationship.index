@@ -12,5 +12,13 @@
     "id" : "_Czu8QN3rEey7huclC_-5SQ",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_sxoUAN4LEeyZCd9j54iiqw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_sxoUAN4LEeyZCd9j54iiqw - table1",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
