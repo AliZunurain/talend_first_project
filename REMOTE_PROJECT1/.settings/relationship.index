@@ -12,6 +12,10 @@
     "id" : "_CjxEUN-xEeyH0MtJtAv5wA - metadata",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_dbIaQN-vEeyH0MtJtAv5wA - customers",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
