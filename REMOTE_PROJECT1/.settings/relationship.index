@@ -5,6 +5,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_dbIaQN-vEeyH0MtJtAv5wA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_CjxEUN-xEeyH0MtJtAv5wA - metadata",
     "version" : "Latest",
     "type" : "schema"
