@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_u68ygONREeyJR5zsrNftww" name="parameter_CA_Output_FIle" prompt="parameter_CA_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/CA_out.txt&quot;"/>
+    <contextParameter comment="" internalId="_u68ygeNREeyJR5zsrNftww" name="parameter_NY_Output_FIle" prompt="parameter_NY_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/NY_out.txt&quot;"/>
+    <contextParameter comment="" internalId="_u68yguNREeyJR5zsrNftww" name="parameter_Other_Output_FIle" prompt="parameter_Other_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/other_out.txt&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" internalId="_u69ZkONREeyJR5zsrNftww" name="parameter_CA_Output_FIle" prompt="parameter_CA_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/CA_out.txt&quot;"/>
+    <contextParameter comment="" internalId="_u69ZkeNREeyJR5zsrNftww" name="parameter_NY_Output_FIle" prompt="parameter_NY_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_u69ZkuNREeyJR5zsrNftww" name="parameter_Other_Output_FIle" prompt="parameter_Other_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" internalId="_u69Zk-NREeyJR5zsrNftww" name="parameter_CA_Output_FIle" prompt="parameter_CA_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/CA_out_PROD.txt&quot;"/>
+    <contextParameter comment="" internalId="_u69ZlONREeyJR5zsrNftww" name="parameter_NY_Output_FIle" prompt="parameter_NY_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_u69ZleNREeyJR5zsrNftww" name="parameter_Other_Output_FIle" prompt="parameter_Other_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="TEST">
+    <contextParameter comment="" internalId="_u69ZluNREeyJR5zsrNftww" name="parameter_CA_Output_FIle" prompt="parameter_CA_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/ct_talend_demo/CA_out.txt&quot;"/>
+    <contextParameter comment="" internalId="_u69Zl-NREeyJR5zsrNftww" name="parameter_NY_Output_FIle" prompt="parameter_NY_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_u69ZmONREeyJR5zsrNftww" name="parameter_Other_Output_FIle" prompt="parameter_Other_Output_FIle?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -43,7 +62,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:dyzZhGJv/Vw/IawksPvKus4qB5RJ5xnN0KX71hk7"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fgFggTJvpdS54CjnISDXTe1VyPjCwcgpRaeOJ3sf"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +97,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:HSuPqt4aujFDfmb5jwqKwVztrX/TeSvaRKsFdPVB"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JlTdpasF3PRSxDZL23x5S6kVK6muRkBPzIko3HAO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -244,7 +263,7 @@
       <column comment="" key="false" length="21" name="States_name" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables name="Var" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="StringHandling.UPCASE(Customer_Input.State) " name="State_UPCASE" type="id_String"/>
       </varTables>
@@ -352,7 +371,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/ct_talend_demo/CA_out.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_CA_Output_FIle"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -393,7 +412,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/ct_talend_demo/NY_out.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_NY_Output_FIle"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -433,7 +452,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_3"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/ct_talend_demo/other_out.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.parameter_Other_Output_FIle"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -533,13 +552,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7511774e-8faa-44d2-8455-efdb09999817"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/UzscEt5otv0EumtG0mZjvBKmb4VJrMOWo4fVGflLu7NVK4ZDmb12AD8wF7zXwdavZDBirKrUDal&#13;
-U9M0EcRe2w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_28881ea8-dac5-4699-9549-e06ecf8f565f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jtzaAJD3PI1fMZOu5ww6Vcy0YiT50ImpXVTS7i82m0DYDOaT284XdlA1O8EN9ieeNliEyhkXLaC7&#13;
-I8AWmnhDtg==</DigestValue></Reference></SignedInfo><SignatureValue>DsBUu748eviMKoS49O2UY7XF+xgSyPZuUXZEDSUZn15SrWQq/SBMzpE4JaABmDcUo9ao2DVCHVWv&#13;
-esFBYHZK0wSoOWQNTocxJ8461d9fE7/gIeAonOXSVSmNC6sw0ADdeYfmPuzw9HYcXhig9luWI+hS&#13;
-nL0BPxVlLt6aTCQkKyPUZHXvYtY5wZQxawnlKmlQj9R2yLIVh772DHCFs/GCThnssl411shJAfy/&#13;
-PwqzfQTilxhSmC9T6XyAiQWq2GC5/GzB3WIKSVS0+fLRCPG9QMQgLvDL9yEiOxFF8eU7/lAD22TW&#13;
-D3g7VcEuo+86RmxCUkNuiq8jr/AIBPXsT9SQfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e7a914fc-2543-4762-8f33-b222e1554407"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M8cY8wy0DmLyXOEVkRc0cz/IFM1wxzWT+6WGOOA/hAW7WHmjURyRJAfM+wQ0YAbE7VhQxVG3aE5w&#13;
+n3kVYvNUiQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fe765f1b-3091-4db4-b31c-59946065a32c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Cd1e/XJzRAYOEBx10+peX03IMzGa3Jaz5zZnCHRXyangZhxafcZUoU3x8VBfXvnx8XP6eezY3P9K&#13;
+7b2IWm8oTw==</DigestValue></Reference></SignedInfo><SignatureValue>N5497mjDQ++dgxkJu/rcRAdv2CZ7IeIgtCpX/EozhZzHnzgDTtf8rghSTym7QQ0KTJS58pz5TKgc&#13;
+HKdVz+q0qNlfFxgv7W/A9rUmjfI+1xOr5/f6Nd4aCEFT84RNm3Q0KmYHqbZMN4wLigu9Bzodd4SW&#13;
+RGKurABPgVvfJljrRIbDwEvhdHOz3tYamnYIvGEjBGN8CiSgaZzQZLA/DqWzA9oPVtWkVqZZucfP&#13;
+ziHOVY54DTy2ofvH2VU67wf3VYUuuIwCG01aWapyH0Nh8z6pySvr8vvof7C1fOnj73dIcOXNVjqw&#13;
+/YXvBFOIbvDXOo9b3hs5QVtXho3Zyf14kBbDQQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -561,4 +580,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_28881ea8-dac5-4699-9549-e06ecf8f565f" Target="#_7511774e-8faa-44d2-8455-efdb09999817"><Timestamp>2022-06-03 15:13:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fe765f1b-3091-4db4-b31c-59946065a32c" Target="#_e7a914fc-2543-4762-8f33-b222e1554407"><Timestamp>2022-06-03 15:27:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
